@@ -93,8 +93,9 @@ public abstract class Problem {
   /**
    * Evaluates a <code>Solution</code> object.
    * @param solution The <code>Solution</code> to evaluate.
+ * @return 
    */    
-  public abstract void evaluate(Individual individual) ;    
+  public abstract double[] evaluate(Individual individual) ;    
   
   
 
