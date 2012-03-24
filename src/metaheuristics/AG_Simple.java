@@ -46,6 +46,7 @@ public class AG_Simple {
 	public AG_Simple(Problem problem) {
 
 		problem_ = problem;
+
 		genotype = new Genotype(problem);
 
 	} // Mprea
@@ -61,13 +62,9 @@ public class AG_Simple {
 		List<Individual> offspringsPop = new ArrayList();
 
 		/*
-		 *  Creation of the population
+		 *  Inserez votre code ici
 		 */
-		for(int i=0; i<popSize; i++) {
-			
-
-			
-		}
+		
 		
 		
 		return bestSolution;
