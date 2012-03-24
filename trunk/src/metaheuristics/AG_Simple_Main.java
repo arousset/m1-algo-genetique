@@ -20,7 +20,7 @@ public class AG_Simple_Main {
 	public static void main(String[] args) {
 		Individual bestSolution = null;	
 
-		Problem problem = new Circle();
+		Problem problem = new Sum();
 		
 		AG_Simple algo = new AG_Simple(problem);
 		try {

@@ -59,6 +59,13 @@ public abstract class Problem {
    * Constructor. 
    */
   public Problem() {
+	  // ICI mettre le probleme
+	  // On doit créer 2 gènes qui seront ensuite un individu
+	  
+	  // On créer 2 valeurs aléatoire bornées
+	  
+	  
+	  
 	  
   } // Problem
         
@@ -93,9 +100,8 @@ public abstract class Problem {
   /**
    * Evaluates a <code>Solution</code> object.
    * @param solution The <code>Solution</code> to evaluate.
- * @return 
    */    
-  public abstract double[] evaluate(Individual individual) ;    
+  public abstract void evaluate(Individual individual) ;    
   
   
 
