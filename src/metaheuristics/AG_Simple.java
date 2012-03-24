@@ -63,7 +63,11 @@ public class AG_Simple {
 		/*
 		 *  Creation of the population
 		 */
-		
+		for(int i=0; i<popSize; i++) {
+			
+
+			
+		}
 		
 		
 		return bestSolution;
