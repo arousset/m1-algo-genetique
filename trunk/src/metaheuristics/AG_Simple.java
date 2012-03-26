@@ -59,7 +59,7 @@ public class AG_Simple {
 	public Individual execute() throws ClassNotFoundException {
 
 		List<Individual> popList = new ArrayList<Individual>();
-		List<Individual> offspringsPop = new ArrayList();
+		List<Individual> offspringsPop = new ArrayList<Individual>();
 
 		Population population = new Population(popSize,genotype);
 		double valeur_diam[] = new double[3];
