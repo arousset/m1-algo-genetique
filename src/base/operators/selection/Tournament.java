@@ -48,7 +48,11 @@ public class Tournament extends Selection{
 	public Individual doSelect() {
 		int choice, winner = 0;
 
-		// mettre le code ICI
+		if (tourneypos != population.size()-1 ){
+			
+		}else{
+			
+		}
 		
 		return population.get(winner);
 	}
@@ -59,14 +63,14 @@ public class Tournament extends Selection{
 	 * @see operators.Selector#reset()
 	 */
 	public void reset() {
-		//!?
+		//!??!
 	}
 
 	/*
 	 * 
 	 */
 	private void shuffleList() {
-		// shuffleList existe déja ?! mais il faut passer en paramètre population 
+		// shuffleList existe déja ?! mais il faut passer en paramètre population donc je fait comme cela mais shuffleList serait mieux
 		Collections.shuffle(population);
 	}
 
