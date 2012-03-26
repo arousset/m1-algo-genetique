@@ -51,8 +51,9 @@ public class Tournament extends Selection{
 		/*
 		 *  Inserez votre code ici
 		 */
-
+		
 		return population.get(winner);
+		
 	}
 
 	/*
