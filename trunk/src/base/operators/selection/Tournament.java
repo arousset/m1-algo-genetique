@@ -46,14 +46,27 @@ public class Tournament extends Selection{
 	 * @see operators.Selector#select()
 	 */
 	public Individual doSelect() {
-		int choice, winner = 0;
-
-		if (tourneypos != population.size()-1 ){
-			
-		}else{
-			
-		}
+		int winner = 0;
+		Individual indi1;
+		Individual indi2;
+		shuffleList();
 		
+		// permet de prendre 2 individus dans la population
+		int alea1=(int) Math.random()*population.size();
+		int alea2=(int) Math.random()*population.size();
+				
+		indi1 = population.get(alea1);
+		indi2 = population.get(alea2);
+		
+		
+		// Tournament
+		// La selection se fait par tournoi deterministe 
+		if(indi1.getFitness() > indi2.getFitness()) {
+			winner = alea1;
+		} else {
+			winner = alea2;
+		}
+
 		return population.get(winner);
 	}
 
