@@ -28,13 +28,13 @@ public class AG_Simple_Main {
 		int taille_pop = Integer.parseInt(str);
 			System.out.println("Nombre de generations : ");
 			String str1 = sc.nextLine();
-			int nbrgeneration = Integer.parseInt(str);
+			int nbrgeneration = Integer.parseInt(str1);
 				System.out.println("Probabilite de croisement : ");
 				String str2 = sc.nextLine();
-				float tx_cross = Float.parseFloat(str);
+				float tx_cross = Float.parseFloat(str2);
 					System.out.println("Probabilite de mutation : ");
 					String str3 = sc.nextLine();
-					float tx_mutation = Float.parseFloat(str);
+					float tx_mutation = Float.parseFloat(str3);
 		AG_Simple algo = new AG_Simple(problem, taille_pop, nbrgeneration, tx_mutation, tx_cross);
 		try {
 			bestSolution = algo.execute();

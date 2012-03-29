@@ -34,7 +34,7 @@ public class AG_Simple {
 
 
 	int popSize = 1000;
-	int nbGenerations = 100;
+	int nbGenerations = 5;
 
 	Selection selection;
 	Crossover crossover;
@@ -48,6 +48,7 @@ public class AG_Simple {
 		// on récupère les params
 		popSize = taille_pop;
 		nbGenerations = nbrgeneration;
+		System.out.println(nbGenerations);
 		xProba = tx_cross;
 		mProba = tx_mutation;
 		
